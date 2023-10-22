@@ -5,16 +5,16 @@ header{
     justify-content: center;
     width: 100%;
     height: 10vh;
-    background-color:grey;
+    background-color:darkslategray;
 }
 header a {
 text-decoration: none;
-color: black;
+color: white;
 padding: 4px 12px;
 border-radius: 8px;
 transition: 300ms ease;
 &:hover {
-    background-color: rgb(255, 255, 34);
+    background-color: #FFE4C4;
     color:grey
 }
 }

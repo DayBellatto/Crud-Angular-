@@ -90,9 +90,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/boostrap/dist/css/boostrap.css",
+              "node_modules/boostrap-icons/font/boostrap-icons.css"
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/boostrap/dist/js/boostrap.js"
+            ]
           }
         }
       }

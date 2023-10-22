@@ -4,6 +4,7 @@ import { CustomerListComponent } from './pages/customer-list/customer-list.compo
 import { CustomerEditComponent } from './pages/customer-edit/customer-edit.component';
 
 const routes: Routes = [
+  // usando o path para dar uma rota e ele da um erro pq temos que importar conforme acima 
   { path:'customer-list',component:CustomerListComponent},
   { path:'customer-edit',component:CustomerEditComponent}
 ];

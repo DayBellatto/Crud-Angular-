@@ -1,5 +1,6 @@
 <header> 
-    <h3><a [routerLink]="['/customer-list']">Listar clientes</a></h3>
-    <h3> <a [routerLink]="['/customer-edit']">Editar Clientes</a></h3>
+    <!-- estamos declarando o customer list e edit paa subir no componente header e com o router link active para ver se o link esta ativo selectionado -->
+    <h3><a [routerLink]="['/customer-list']" [routerLinkActive]="['active']" class="nav-link btn btn-light">Listar clientes</a></h3>
+    <h3> <a [routerLink]="['/customer-edit']"[routerLinkActive]="['active']" class="nav-link btn btn-light">Editar Clientes</a></h3>
 </header>
  
